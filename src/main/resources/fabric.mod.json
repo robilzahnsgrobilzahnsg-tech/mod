@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "leavemod",
+  "version": "${version}",
+  "name": "Quick Leave",
+  "description": "Press ß to leave the current server.",
+  "environment": "client",
+  "entrypoints": { "client": ["de.leavemod.LeaveMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
